@@ -1,0 +1,51 @@
+.cards {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.box1 {
+    background-image: url('img/servicios/servicio-1.webp');
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.box2 {
+    background-image: url('img/servicios/srvicio-4.webp');
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.box3 {
+    background-image: url('img/servicios/servicio-5.webp');
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.box4 {
+    background-image: url('img/servicios/servicio-6.webp');
+    background-size: cover;
+    /* Ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+}
+
+.cards:hover {
+    cursor: pointer;
+    background-color: rgba(104, 104, 104, 0.7);
+    transition: all .5s;
+    scale: 1.02;
+
+}

@@ -1,0 +1,50 @@
+.lateral {
+    width: 300px;
+    height: 100vh;
+    margin-top: 20px;
+    background-color: var(--background-color-cards);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0 4px 12px;
+}
+
+.lateral>input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    outline: rgb(255, 255, 255);
+    border: 0;
+    
+}
+
+.search {
+    outline: none;
+}
+
+.boton {
+    background-color: var(--color-primary)
+    
+}
+
+.registrar {
+    margin-top: 20px;
+    color: rgb(88, 85, 85);
+}
+
+.boton:hover {
+    background-color: var(--color-primary-dark);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0);
+    transition: all .2s;
+}
+
+.lateral>h4 {
+    background-color: var(--color-primary-dark);
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: lighter;
+}

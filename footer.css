@@ -1,0 +1,134 @@
+.foot {
+    margin-top: 10px
+}
+
+.pie {
+    width: 100%;
+    background-color: rgba(95, 91, 91, 0.9);
+    border-radius: 10px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    text-align: center;
+    font-size: 10px;
+    color: beige;
+    padding: 10px;
+}
+
+.social-network>a>i {
+    font-size: 1.5rem;
+    color: rgb(163, 163, 163);
+    margin: 0 10px;
+}
+
+.social-network>a>i:hover {
+    color: rgb(255, 255, 255);
+    transition: all .3s;
+    transform: scale(1.2)
+}
+
+.social-network {
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    box-shadow: 0 4px 12px;
+
+}
+
+.enlaces-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+
+}
+
+hr.thin {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.enlaces-foot {
+    font-size: 11px;
+    text-decoration: none;
+    color: bisque;
+    padding: 1px;
+
+}
+
+.div-linea {
+    border-right: solid 1px rgb(175, 175, 175);
+}
+
+.enlaces-foot:hover {
+    text-decoration: underline;
+}
+
+.titulo-foot {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: rgb(124, 124, 124);
+    margin-top: 0;
+
+}
+
+.formulario-footer {
+    grid-column: span 2;
+    margin: auto;
+    width: 100%;
+}
+
+.formulario-footer input {
+    margin: auto;
+    width: 90%;
+    padding: 3px;
+    margin: 5px;
+    outline: none;
+
+
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    outline: none;
+}
+
+.titulo-foot-mensaje {
+    text-align: start;
+    margin-left: 5%;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: rgb(124, 124, 124);
+    margin-top: 0;
+}
+
+.btn-footer {
+    width: 90%;
+    margin-top: 10px;
+    padding: 6px;
+    border: none;
+    color: aliceblue;
+    background-color: var(--color-primary-dark);
+    border-bottom: solid 1px var(--color-primary-dark);
+}
+
+.btn-footer:hover {
+    cursor: pointer;
+    color: aliceblue;
+    box-shadow: 4px 4px 12px rgba(255, 255, 255, .6);
+    transition: all .2s;
+    border-bottom: solid 1px var(--color-primary);
+}
+
+.btn-footer:active {
+    background-color: var(--color-primary);
+    color: black;
+}

@@ -1,0 +1,30 @@
+/*=====HOJAS DE ESTILOS ENLAZADAS====*/
+@import "reset.css";
+@import "nav-bar.css";
+@import "banner.css";
+@import "section-principal.css";
+@import "lateral.css";
+@import "footer.css";
+@import "cards.css";
+@import "content.css";
+@import "container.css";
+@import "medias querys.css";
+@import "herramientas.css";
+@import "reseñas.css";
+
+/*=====COLORES====*/
+:root {
+    --color-primary: #B6EF80;
+    --color-primary-dark: #48642D;
+    --background-color-cards: rgba(255, 255, 255, 0.8);
+    --border-radius: 10px
+}
+
+/*=====GOOGLE MAPS====*/
+iframe {
+    width: 100%;
+    height: 97%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px;
+}

@@ -1,0 +1,86 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    border-bottom: solid 4px var(--color-primary-dark);
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+}
+
+.search-bar {
+    margin-top: 13px;
+    justify-content: end;
+}
+
+.search {
+    padding: 3px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 5px 0px;
+}
+
+.search-icon {
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+.navegacion ul li {
+    list-style: none;
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.navegacion ul li:hover {
+    background-color: var(--color-primary-dark);
+    padding: 15px;
+    transition: all .2s;
+    cursor: pointer;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0);
+}
+
+.navegacion ul li:hover a {
+    color: aliceblue;
+}
+
+.navegacion ul li:hover i {
+    color: aliceblue;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    color: rgb(88, 85, 85);
+}
+
+.nav-secondary {
+    display: flex;
+    justify-content: flex-end;
+}
+
+i {
+    font-size: 18px;
+    color: rgb(88, 85, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 80%; 
+    background-color: var(--color-primary);
+    z-index: 1000; 
+   
+}
+
+.content {
+    margin-top: 60px; /* Ajusta la altura según la altura de tu navegación fija */
+    /* Otros estilos para el contenido */
+}

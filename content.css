@@ -1,0 +1,20 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--background-color-cards);
+    box-shadow: 0 4px 12px;
+}
+
+img {
+    display: flex;
+    width: 120px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
