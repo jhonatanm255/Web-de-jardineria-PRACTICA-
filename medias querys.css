@@ -1,5 +1,6 @@
 /*====MAX IDHT 1200 PX====*/
 @media (max-width: 1200px) {
+
     .content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -25,11 +26,39 @@
     .container .tools{
         grid-template-columns: repeat(2, 1fr);
     }
+    .search-bar, .search, .search-icon{
+        display: none;
+    }
+    .nav-fixed{
+        width: 100%;
+    }
+}
+
+/*====MAX WIDHT 900 PX====*/
+@media screen and (max-width: 900px) {
+
+    .container {
+        grid-template-columns: 2fr 1fr;
+    }
+        body {
+            width: 100%;
+        }
+
+        .nav-fixed{
+            width: 100%;
+        }
 }
 
 /*====MAX WIDHT 768 PX====*/
 @media screen and (max-width: 768px) {
 
+    .banner-1 {
+        height: 180px;
+    }
+
+    body {
+        width: 100%;
+    }
     /*---Pagina index---*/
     .comentarios .tarjetas{
         grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
@@ -94,7 +123,7 @@
         grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
     }
     .banner-1 {
-        height: 140px;
+        height: 200px;
     }
 
     .nav {

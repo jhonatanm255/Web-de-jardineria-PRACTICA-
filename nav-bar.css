@@ -73,7 +73,6 @@ i {
 .nav-fixed {
     position: fixed;
     top: 0;
-    left: 10%;
     width: 80%; 
     background-color: var(--color-primary);
     z-index: 1000; 
