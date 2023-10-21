@@ -37,6 +37,10 @@
 /*====MAX WIDHT 900 PX====*/
 @media screen and (max-width: 900px) {
 
+    .lateral{
+        height: auto;
+    }
+
     .container {
         grid-template-columns: 2fr 1fr;
     }
@@ -114,6 +118,10 @@
     .container .tools {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .lateral{
+        height: auto;
+    }
 }
 
 /*==== MAX WIDHT 600 PX ====*/
@@ -147,5 +155,13 @@
     /*----Pagina Herramientas----*/
     .container .tools{
         grid-template-columns: 1fr;
+    }
+
+    .lateral{
+        height: auto;
+    }
+
+    .div-linea-2{
+        display: none;
     }
 }
