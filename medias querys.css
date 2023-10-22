@@ -132,6 +132,12 @@
         grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
     }
 
+    #menu {
+        position: absolute;
+        z-index: 100; 
+        width: 100%;
+      }
+    
     .nav-secondary{
         display: none;
     }
@@ -142,7 +148,7 @@
 
     .hamburguer{
         text-align: center;  
-    }
+    }    
 
     #toggleButton{
         display: block;  
