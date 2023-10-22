@@ -72,3 +72,32 @@ function mostrarDatos3() {
       console.log("mensaje: " + mensaje);
     }
   }
+
+  // MENU HAMBURGUESA
+
+  const toggleButton = document.getElementById('toggleButton');
+  const menu = document.getElementById('menu');
+  
+  function toggleMenu() {
+    if (window.innerWidth <= 600) {
+      if (menu.style.display === 'none' || menu.style.display === '') {
+        menu.style.display = 'block';
+      } else {
+        menu.style.display = 'none';
+      }
+    } else {
+      menu.style.display = 'flex'; // Oculta el menú en resoluciones mayores a 600px
+    }
+  }
+  
+  toggleButton.addEventListener('click', toggleMenu);
+  window.addEventListener('resize', toggleMenu);
+  
+  // Asegurarse de que el menú esté oculto al cargar la página
+  window.addEventListener('load', toggleMenu);
+
+
+
+  
+  
+  

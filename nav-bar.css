@@ -6,6 +6,10 @@
     border-bottom: solid 4px var(--color-primary-dark);
 }
 
+#toggleButton{
+    display: none;
+}
+
 .nav-left {
     display: flex;
     justify-content: space-between;
@@ -82,4 +86,10 @@ i {
 .content {
     margin-top: 60px; /* Ajusta la altura según la altura de tu navegación fija */
     /* Otros estilos para el contenido */
+}
+
+.btn-hamburguesa {
+    padding: 8px;
+    background-color: var(--color-primary);
+    border: none;
 }

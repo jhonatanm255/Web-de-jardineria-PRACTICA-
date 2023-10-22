@@ -126,18 +126,28 @@
 
 /*==== MAX WIDHT 600 PX ====*/
 @media screen and (max-width: 600px) {
+
     /*---Pagina index---*/
     .comentarios .tarjetas{
         grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
     }
+
+    .nav-secondary{
+        display: none;
+    }
+
     .banner-1 {
         height: 200px;
     }
 
-    .nav {
-        display: none;
+    .hamburguer{
+        text-align: center;  
     }
 
+    #toggleButton{
+        display: block;  
+    }
+    
     .enlaces-footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
