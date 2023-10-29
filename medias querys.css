@@ -132,10 +132,32 @@
         grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
     }
 
+
+    .icon {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .active {
+        background-color: var(--color-primary-dark);
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    .active > i {
+        color: aliceblue;
+        margin: auto;
+    }
+
     #menu {
         position: absolute;
         z-index: 100; 
         width: 100%;
+      }
+
+      .btn-hamburguesa {
+        margin: auto;
       }
     
     .nav-secondary{
@@ -151,7 +173,7 @@
     }    
 
     #toggleButton{
-        display: block;  
+        display: flex;  
     }
     
     .enlaces-footer {
@@ -180,5 +202,9 @@
 
     .div-linea-2{
         display: none;
+    }
+
+    .navegacion ul li {
+        border-bottom: none;
     }
 }
